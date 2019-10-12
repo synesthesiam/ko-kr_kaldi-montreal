@@ -1,0 +1,1 @@
+{"text": "차고 라이트를 켜십시오", "intent": {"name": "ChangeLightState", "confidence": 1.0}, "entities": [], "raw_text": "차고 라이트를 켜십시오", "tokens": ["차고", "라이트를", "켜십시오"], "raw_tokens": ["차고", "라이트를", "켜십시오"], "slots": {}, "intents": [], "recognize_seconds": 0.0002315044403076172}

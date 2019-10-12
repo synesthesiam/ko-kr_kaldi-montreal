@@ -1,0 +1,1 @@
+{"text": "침실 조명을 켜십시오", "intent": {"name": "ChangeLightState", "confidence": 1.0}, "entities": [], "raw_text": "침실 조명을 켜십시오", "tokens": ["침실", "조명을", "켜십시오"], "raw_tokens": ["침실", "조명을", "켜십시오"], "slots": {}, "intents": [], "recognize_seconds": 0.0002465248107910156}

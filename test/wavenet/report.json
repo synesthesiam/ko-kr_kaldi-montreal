@@ -1,0 +1,462 @@
+{
+  "statistics": {
+    "num_wavs": 10,
+    "num_words": 26,
+    "num_entities": 0,
+    "correct_transcriptions": 0,
+    "correct_intent_names": 0,
+    "correct_words": 6,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.23076923076923078,
+    "intent_accuracy": 0,
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 0,
+    "average_transcription_speedup": 13.138835875738971
+  },
+  "actual": {
+    "얼마나_더워.wav": {
+      "text": "거실 차고",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "GetTemperature"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0004756450653076172,
+      "wav_seconds": 0.863062,
+      "transcribe_seconds": 0.097904,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "얼마나 더워",
+        "actual": "거실    차고",
+        "words": 2,
+        "correct": 0,
+        "errors": 2
+      }
+    },
+    "몇_시지.wav": {
+      "text": "거실",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "GetTime"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00027680397033691406,
+      "wav_seconds": 0.838125,
+      "transcribe_seconds": 0.093255,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "몇 시지",
+        "actual": "*** 거실",
+        "words": 2,
+        "correct": 0,
+        "errors": 2
+      }
+    },
+    "얼마나_추워.wav": {
+      "text": "끄십시오",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "GetTemperature"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00025010108947753906,
+      "wav_seconds": 0.858062,
+      "transcribe_seconds": 0.090851,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "얼마나 추워",
+        "actual": "***       끄십시오",
+        "words": 2,
+        "correct": 0,
+        "errors": 2
+      }
+    },
+    "거실_램프를_끄십시오.wav": {
+      "text": "거실",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002601146697998047,
+      "wav_seconds": 1.5265,
+      "transcribe_seconds": 0.106232,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "거실 램프를 끄십시오",
+        "actual": "거실 ***       ***",
+        "words": 3,
+        "correct": 1,
+        "errors": 2
+      }
+    },
+    "차고_등을_끄십시오.wav": {
+      "text": "끄십시오",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002617835998535156,
+      "wav_seconds": 1.376875,
+      "transcribe_seconds": 0.111728,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "차고 등을 끄십시오",
+        "actual": "***    ***    끄십시오",
+        "words": 3,
+        "correct": 1,
+        "errors": 2
+      }
+    },
+    "온도는_얼마입니까.wav": {
+      "text": "몇",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "GetTemperature"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00024819374084472656,
+      "wav_seconds": 1.381875,
+      "transcribe_seconds": 0.097665,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "온도는 얼마입니까",
+        "actual": "***       몇",
+        "words": 2,
+        "correct": 0,
+        "errors": 2
+      }
+    },
+    "침실_조명을_켜십시오.wav": {
+      "text": "침실 끄십시오",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002582073211669922,
+      "wav_seconds": 1.64625,
+      "transcribe_seconds": 0.103873,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "침실 조명을 켜십시오",
+        "actual": "침실 ***       끄십시오",
+        "words": 3,
+        "correct": 1,
+        "errors": 2
+      }
+    },
+    "차고_라이트를_켜십시오.wav": {
+      "text": "거실",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002532005310058594,
+      "wav_seconds": 1.64625,
+      "transcribe_seconds": 0.099061,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "차고 라이트를 켜십시오",
+        "actual": "***    ***          거실",
+        "words": 3,
+        "correct": 0,
+        "errors": 3
+      }
+    },
+    "거실_램프를_켜십시오.wav": {
+      "text": "거실",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002601146697998047,
+      "wav_seconds": 1.566437,
+      "transcribe_seconds": 0.096045,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "거실 램프를 켜십시오",
+        "actual": "거실 ***       ***",
+        "words": 3,
+        "correct": 1,
+        "errors": 2
+      }
+    },
+    "침실_조명을_끄십시오.wav": {
+      "text": "침실 끄십시오",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0003294944763183594,
+      "wav_seconds": 1.611312,
+      "transcribe_seconds": 0.110956,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "침실 조명을 끄십시오",
+        "actual": "침실 ***       끄십시오",
+        "words": 3,
+        "correct": 2,
+        "errors": 1
+      }
+    }
+  },
+  "expected": {
+    "얼마나_더워.wav": {
+      "text": "얼마나 더워",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "얼마나 더워",
+      "tokens": [
+        "얼마나",
+        "더워"
+      ],
+      "raw_tokens": [
+        "얼마나",
+        "더워"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00021767616271972656
+    },
+    "몇_시지.wav": {
+      "text": "몇 시지",
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "몇 시지",
+      "tokens": [
+        "몇",
+        "시지"
+      ],
+      "raw_tokens": [
+        "몇",
+        "시지"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002040863037109375
+    },
+    "얼마나_추워.wav": {
+      "text": "얼마나 추워",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "얼마나 추워",
+      "tokens": [
+        "얼마나",
+        "추워"
+      ],
+      "raw_tokens": [
+        "얼마나",
+        "추워"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00021839141845703125
+    },
+    "거실_램프를_끄십시오.wav": {
+      "text": "거실 램프를 끄십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "거실 램프를 끄십시오",
+      "tokens": [
+        "거실",
+        "램프를",
+        "끄십시오"
+      ],
+      "raw_tokens": [
+        "거실",
+        "램프를",
+        "끄십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00023746490478515625
+    },
+    "차고_등을_끄십시오.wav": {
+      "text": "차고 등을 끄십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "차고 등을 끄십시오",
+      "tokens": [
+        "차고",
+        "등을",
+        "끄십시오"
+      ],
+      "raw_tokens": [
+        "차고",
+        "등을",
+        "끄십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002353191375732422
+    },
+    "온도는_얼마입니까.wav": {
+      "text": "온도는 얼마입니까",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "온도는 얼마입니까",
+      "tokens": [
+        "온도는",
+        "얼마입니까"
+      ],
+      "raw_tokens": [
+        "온도는",
+        "얼마입니까"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00023865699768066406
+    },
+    "침실_조명을_켜십시오.wav": {
+      "text": "침실 조명을 켜십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "침실 조명을 켜십시오",
+      "tokens": [
+        "침실",
+        "조명을",
+        "켜십시오"
+      ],
+      "raw_tokens": [
+        "침실",
+        "조명을",
+        "켜십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002465248107910156
+    },
+    "차고_라이트를_켜십시오.wav": {
+      "text": "차고 라이트를 켜십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "차고 라이트를 켜십시오",
+      "tokens": [
+        "차고",
+        "라이트를",
+        "켜십시오"
+      ],
+      "raw_tokens": [
+        "차고",
+        "라이트를",
+        "켜십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002315044403076172
+    },
+    "거실_램프를_켜십시오.wav": {
+      "text": "거실 램프를 켜십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "거실 램프를 켜십시오",
+      "tokens": [
+        "거실",
+        "램프를",
+        "켜십시오"
+      ],
+      "raw_tokens": [
+        "거실",
+        "램프를",
+        "켜십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00023484230041503906
+    },
+    "침실_조명을_끄십시오.wav": {
+      "text": "침실 조명을 끄십시오",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "침실 조명을 끄십시오",
+      "tokens": [
+        "침실",
+        "조명을",
+        "끄십시오"
+      ],
+      "raw_tokens": [
+        "침실",
+        "조명을",
+        "끄십시오"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00023603439331054688
+    }
+  }
+}

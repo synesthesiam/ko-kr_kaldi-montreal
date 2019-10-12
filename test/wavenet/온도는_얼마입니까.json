@@ -1,0 +1,1 @@
+{"text": "온도는 얼마입니까", "intent": {"name": "GetTemperature", "confidence": 1.0}, "entities": [], "raw_text": "온도는 얼마입니까", "tokens": ["온도는", "얼마입니까"], "raw_tokens": ["온도는", "얼마입니까"], "slots": {}, "intents": [], "recognize_seconds": 0.00023865699768066406}

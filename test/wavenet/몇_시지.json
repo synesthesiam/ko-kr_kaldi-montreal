@@ -1,0 +1,1 @@
+{"text": "몇 시지", "intent": {"name": "GetTime", "confidence": 1.0}, "entities": [], "raw_text": "몇 시지", "tokens": ["몇", "시지"], "raw_tokens": ["몇", "시지"], "slots": {}, "intents": [], "recognize_seconds": 0.0002040863037109375}

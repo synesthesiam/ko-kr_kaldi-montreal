@@ -1,0 +1,1 @@
+{"text": "얼마나 추워", "intent": {"name": "GetTemperature", "confidence": 1.0}, "entities": [], "raw_text": "얼마나 추워", "tokens": ["얼마나", "추워"], "raw_tokens": ["얼마나", "추워"], "slots": {}, "intents": [], "recognize_seconds": 0.00021839141845703125}
