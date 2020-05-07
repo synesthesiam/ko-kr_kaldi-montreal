@@ -1,6 +1,10 @@
+---
+name: "ko-kr_kaldi-montreal"
+version: "1.0"
+
 language:
   name: "korean"
-  code: "ko-KR"
+  code: "ko-kr"
 
 speech-to-text:
   acoustic-model-type: "kaldi"
@@ -13,7 +17,8 @@ training:
     model-type: "gmm"
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
-    - !env "${profile_dir}/language_model.txt"
+    - !env "${profile_dir}/base_language_model.txt"
+    - !env "${profile_dir}/base_language_model.fst"
     - !env "${profile_dir}/g2p.fst"
     - !env "${profile_dir}/acoustic_model/model/final.mdl"
     - !env "${profile_dir}/acoustic_model/model/graph/HCLG.fst"
