@@ -106,8 +106,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 240
-    sha256: 47d2a8a41e4cb850174052f3213791f5937d128fa3d4cb9bda64a70cfba2daa4
+    bytes: 471
+    sha256: 168fda3357718fbbaadcc1805ae0941e6c9acf7870b8ad3b553a2909f9490364
 
 # Sample sentences, etc.
 examples:
