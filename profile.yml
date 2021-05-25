@@ -15,6 +15,7 @@ training:
   acoustic-model-type: "kaldi"
   kaldi:
     model-type: "gmm"
+    spn_phone: "spn"
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
     - !env "${profile_dir}/base_language_model.txt"
